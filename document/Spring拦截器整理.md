@@ -52,4 +52,4 @@ public interface HandlerInterceptor {
 
 ## 多个过滤器与拦截器的执行顺序：
 
- ![执行顺序图](E:\Interview-related\document\执行顺序.png)
+![执行顺序图](/执行顺序.png)
