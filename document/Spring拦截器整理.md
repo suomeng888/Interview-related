@@ -9,7 +9,7 @@
 Java代码：
 
 `public class HandlerInterceptorAdapter implements HandlerInterceptor {   
- public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) 
+​	 public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) 
 ​            throws Exception{
 ​    }   
 ​    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView)
@@ -52,4 +52,5 @@ public interface HandlerInterceptor {
 
 ## 多个过滤器与拦截器的执行顺序：
 
-![执行顺序图](/执行顺序.png)
+![执行顺序图](https://raw.githubusercontent.com/spreadnix/Interview-related/master/document/order.png)
+
